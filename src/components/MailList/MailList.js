@@ -12,7 +12,7 @@ const MailList = class extends Component {
         className={styles.link}
         to={`${match.url}/${mail.id}`}
       >
-        {mail.body.slice(0, 50)}...
+        {mail.body.slice(0, 52)}...
       </Link>
     ));
   };
